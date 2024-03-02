@@ -1,4 +1,34 @@
 header{
+    text-align: center;
     background-color: rgb(124, 159, 255);
 }
 
+body{
+    background-color: aliceblue;
+}
+
+.texto-table1{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.texto-table2{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.imagem-table1{
+    padding-left: 50px;
+}
+
+.imagem-table2{
+    padding-right: 50px;
+}
+
+
+.imagem-topo{
+    padding-bottom: 50px;
+    width: 100%;
+}
