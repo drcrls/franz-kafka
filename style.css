@@ -1,4 +1,4 @@
-header{
+header, section{
     text-align: center;
     background-color: rgb(124, 159, 255);
 }
@@ -20,15 +20,14 @@ body{
 }
 
 .imagem-table1{
-    padding-left: 50px;
+    padding-left: 0px;
 }
 
 .imagem-table2{
-    padding-right: 50px;
+    padding-left: 200px;
 }
 
-
 .imagem-topo{
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     width: 100%;
 }
