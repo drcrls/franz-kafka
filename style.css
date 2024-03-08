@@ -19,7 +19,7 @@
     color: red;
 }
 
-header, section{
+header{
     font-family: "Permanent Marker", cursive;
     text-align: center;
     background-color: rgb(124, 159, 255);
@@ -56,4 +56,42 @@ body{
 .imagem-topo{
     padding-bottom: 0px;
     width: 100%;
+}
+
+.taylor-premios{
+    background-image: url("https://rollingstone.uol.com.br/media/uploads/taylor-swift-indicada-grammy-2023-foto-kevork-djansezian-getty-images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 50px;
+    color: rgb(124, 159, 255);
+    font-family: "Permanent Marker", cursive;
+    -webkit-text-stroke: 3px white;
+    border: 5px solid rgb(124, 159, 255);
+    border-radius: 10px;
+}
+
+li{
+    padding: 8px;
+}
+
+.premios{
+    display: inline-table;
+    max-inline-size: 50%;
+    font-weight: bold;
+    font-family: "Permanent Marker", cursive;
+    color: black;
+}
+
+.indicacoes{
+    display: flex;
+    color: gray;
+    font-weight: bold;
+    font-family: "Courgette", cursive;
+    border: 2px solid rgb(124, 159, 255);
+    border-radius: 10px;
 }
