@@ -63,13 +63,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
-    width: 100%;
+    width: cover;
     background-attachment: fixed;
     text-align: center;
-    padding: 50px;
     color: rgb(124, 159, 255);
     font-family: "Permanent Marker", cursive;
+    padding: 35px;
     -webkit-text-stroke: 3px white;
     border: 5px solid rgb(124, 159, 255);
     border-radius: 10px;
@@ -80,8 +79,7 @@ li{
 }
 
 .premios{
-    display: inline-table;
-    max-inline-size: 50%;
+    display: inline-block;
     font-weight: bold;
     font-family: "Permanent Marker", cursive;
     color: black;
@@ -89,9 +87,18 @@ li{
 
 .indicacoes{
     display: flex;
+    flex-wrap:wrap;
     color: gray;
     font-weight: bold;
     font-family: "Courgette", cursive;
     border: 2px solid rgb(124, 159, 255);
     border-radius: 10px;
+}
+
+.indicacoes li{
+    border: 1px solid rgb(124, 159, 255);
+    border-radius: 10px;
+    padding: 7px;
+    list-style: none;
+
 }
