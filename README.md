@@ -1,4 +1,4 @@
-# Fraz Kafka
+# Franz Kafka
 
 ## Czech author Franz Kafka fan page, using just Html5 and Css3.
 
